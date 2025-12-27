@@ -2,7 +2,7 @@ import Profile from "../assets/Picsart_25-12-23_22-48-28-982-modified.png"
 import resume from "../assets/mylatestresume.pdf"
 export default function About(){
     return (
-        <div className="bg-[rgb(23,23,23)] py-1 px-16 grid md:grid-cols-2 gap-2 grid-cols-1">
+        <div className="bg-[rgb(23,23,23)] py-1 md:px-16 px-8 grid md:grid-cols-2 gap-2 grid-cols-1">
             <div className="order-2 md:order-1 col-span-1 flex flex-col gap-2 items-center md:items-start">
             <h2 className="text-green-500 text-3xl font-sans font-bold">Hello, I am Karan</h2>
             <h4 className="text-center text-white text-6xl font-extrabold">Full-Stack Developer</h4>
@@ -13,7 +13,7 @@ export default function About(){
                </svg>Resume</a>
             </div>
             <div className="order-1 md:order-2 col-span-1 flex justify-center">
-             <img className="w-80" src={Profile}></img>
+             <img className="md:w-80 w-64" src={Profile}></img>
             </div>
         </div>
     )

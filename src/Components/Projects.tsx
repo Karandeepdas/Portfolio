@@ -36,13 +36,13 @@ export default function Project(){
                 </svg>
                 <h1 className='text-white text-xl font-serif'>Tech used</h1>
              </div>
-             <div className='w-full grid md:grid-cols-4 grid-cols-3 gap-2 p-1'>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl '>React.js</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Javascript</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Node.js</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Mongodb</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>JWT</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Tailwind</div>
+             <div className='w-full grid md:grid-cols-4 grid-cols-2 gap-2 p-1'>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>React.js</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Javascript</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Node.js</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Mongodb</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>JWT</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Tailwind</div>
              </div>
              <div className='w-full flex justify-end mt-4'>
                <button className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</button>
@@ -78,12 +78,12 @@ export default function Project(){
                 </svg>
                 <h1 className='text-white text-xl font-serif'>Tech used</h1>
              </div>
-             <div className='w-full grid md:grid-cols-4 grid-cols-3 gap-2 p-1'>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl '>HTML</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>CSS</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>React</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Node.js</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Express</div>
+             <div className='w-full grid md:grid-cols-4 grid-cols-2 gap-2 p-1'>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>HTML</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>CSS</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>React</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Node.js</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Express</div>
                 
              </div>
              <div className='w-full flex justify-end mt-4'>
@@ -120,13 +120,13 @@ export default function Project(){
                 </svg>
                 <h1 className='text-white text-xl font-serif'>Tech used</h1>
              </div>
-             <div className='w-full grid md:grid-cols-4 grid-cols-3 gap-2 p-1'>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl '>React.js</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Javascript</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Node.js</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Mongodb</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>HotToast</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Tailwind</div>
+             <div className='w-full grid md:grid-cols-4 grid-cols-2 gap-2 p-1'>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>React.js</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Javascript</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Node.js</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Mongodb</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>HotToast</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Tailwind</div>
              </div>
              <div className='w-full flex justify-end mt-4'>
                <button className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</button>
@@ -162,12 +162,12 @@ export default function Project(){
                 </svg>
                 <h1 className='text-white text-xl font-serif'>Tech used</h1>
              </div>
-             <div className='w-full grid md:grid-cols-4  grid-cols-3 gap-2 p-1'>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl '>React.js</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Typescript</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Hot-Toast</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>RestApi</div>
-                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl'>Tailwind</div>
+             <div className='w-full grid md:grid-cols-4  grid-cols-2 gap-2 p-1'>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>React.js</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Typescript</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Hot-Toast</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>RestApi</div>
+                <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Tailwind</div>
              </div>
              <div className='w-full flex justify-end mt-4'>
                <button className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</button>

@@ -1,11 +1,38 @@
 import {FaXTwitter } from "react-icons/fa6";
 import { FaGithub,FaLinkedin, FaTelegramPlane,FaInstagram } from "react-icons/fa";
+
 export default function Contact(){
+  const clickeffect=async(e: React.FormEvent<HTMLFormElement>)=>{
+   e.preventDefault();
+    const form = e.currentTarget;
+   const formData = {
+    name: (form.elements.namedItem("name") as HTMLInputElement).value,
+    email: (form.elements.namedItem("email") as HTMLInputElement).value,
+    message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+  };
+
+  const response = await fetch("https://formspree.io/f/xkonryov", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify(formData),
+  });
+
+  if (response.ok) {
+    alert("Message sent successfully!");
+    form.reset();
+  } else {
+    alert("Something went wrong");
+  }
+
+  }
     return (
         <div className="grid w-full bg-[rgb(23,23,23)] py-2 px-16 grid-cols-1 gap-16 md:grid-cols-2">
          <div className="col-span-1 flex flex-col justify-center">
             <h1 className="text-white text-xl">Send a Message</h1>
-            <form >
+            <form onSubmit={clickeffect}>
             <input type="hidden" name="_format" value="json" />
             <div className="flex gap-x-6 mb-6">
              <div className="w-full relative">
@@ -25,7 +52,7 @@ export default function Contact(){
            </div>
            <label htmlFor="message" className="block mb-2.5 text-sm font-medium text-heading text-white">Your message</label>
            <textarea id="message" rows={4}  className="bg-neutral-secondary-medium border border-default-medium text-white text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body rounded-xl" placeholder="Write your thoughts here..."></textarea>
-           <button className="text-white p-2 mt-2 rounded-l-full rounded-r-full flex justify-center items-center gap-1 cursor-pointer bg-blue-700 hover:bg-blue-500">
+           <button type="submit" className="text-white p-2 mt-2 rounded-l-full rounded-r-full flex justify-center items-center gap-1 cursor-pointer bg-blue-700 hover:bg-blue-500">
             <FaTelegramPlane/>
             Send message</button>
           </form>
