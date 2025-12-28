@@ -1,18 +1,17 @@
-//import programming from '../../src/assets/programming.jpg'
+
 import checkers from '../assets/checkers.jpg'
-//import Ecom from "../assets/Ecom.jpg"
 import Ecart from "../assets/Ecart.png"
 import weatherapp from "../assets/weatherapp.png"
 import admin from "../assets/admindash.avif"
 export default function Project(){
     return (
-    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 py-2 px-16 bg-[rgb(23,23,23)]">
+    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 py-2 md:px-16 px-8 bg-[rgb(23,23,23)]">
         <div className="col-span-1 flex md:flex-row flex-col rounded-xl bg-[rgb(8,8,8)]">
             <div className="w-full h-1/3 md:w-1/3 md:h-full">
              <img
               src={admin}
               alt="Technology"
-              className="w-full h-full object-cover rounded-t-xl md:rounded-l-xl md:rounded-t-none"/> </div>
+              className="w-full h-full pointer-events-none object-cover cursor- rounded-t-xl md:rounded-l-xl md:rounded-t-none"/> </div>
            <div className="flex-1 p-5 items-center gap-1">
             
              <h1 className="text-white font-bold font-sans text-2xl ">FinanceVisualizer</h1>
@@ -23,7 +22,7 @@ export default function Project(){
                </svg>
                 <h1 className='text-white text-xl font-serif'>Key Highlights</h1>
              </div>
-               <ul className="list-disc list-inside space-y-2 text-gray-300 text-md marker:text-green-500">
+               <ul className="list-disc list-outside space-y-2 text-gray-300 text-md marker:text-green-500">
                  <li>Full-stack finance tracker with interactive visualizations</li>
                   <li>Secure REST APIs with JWT-based authentication</li>
                  <li>Responsive React + Tailwind frontend</li>
@@ -45,7 +44,7 @@ export default function Project(){
                 <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Tailwind</div>
              </div>
              <div className='w-full flex justify-end mt-4'>
-               <button className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</button>
+               <a target="_blank" rel="noopener noreferrer" href='https://financevisualiz.netlify.app/' className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</a>
               </div>
            </div>
         </div>
@@ -54,7 +53,7 @@ export default function Project(){
              <img
               src={checkers}
               alt="Technology"
-              className="w-full h-full object-cover rounded-t-xl md:rounded-l-xl"/> </div>
+              className="w-full h-full pointer-events-none object-cover rounded-t-xl md:rounded-l-xl md:rounded-t-none"/> </div>
            <div className="flex-1 p-5 items-center gap-1">
             
              <h1 className="text-white font-bold font-sans text-2xl ">Checkers</h1>
@@ -87,7 +86,7 @@ export default function Project(){
                 
              </div>
              <div className='w-full flex justify-end mt-4'>
-               <button className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</button>
+               <a target="_blank" rel="noopener noreferrer" href='https://github.com/Karandeepdas/Checkers' className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</a>
               </div>
            </div>
         </div>
@@ -96,7 +95,7 @@ export default function Project(){
              <img
               src={Ecart}
               alt="Technology"
-              className="w-full h-full object-cover md:rounded-l-xl rounded-t-xl"/> </div>
+              className="w-full h-full pointer-events-none object-cover md:rounded-l-xl md:rounded-t-none rounded-t-xl"/> </div>
            <div className="flex-1 p-5 items-center gap-1">
             
              <h1 className="text-white font-bold font-sans text-2xl ">E-commerce</h1>
@@ -129,7 +128,7 @@ export default function Project(){
                 <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Tailwind</div>
              </div>
              <div className='w-full flex justify-end mt-4'>
-               <button className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</button>
+               <a target="_blank" rel="noopener noreferrer" href='https://github.com/Karandeepdas/E-com-website' className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</a>
               </div>
            </div>
         </div>
@@ -138,7 +137,7 @@ export default function Project(){
              <img
               src={weatherapp}
               alt="Technology"
-              className="w-full h-full object-cover md:rounded-l-xl rounded-t-xl"/> </div>
+              className="w-full h-full pointer-events-none object-cover md:rounded-l-xl md:rounded-t-none rounded-t-xl"/> </div>
            <div className="flex-1 p-5 items-center gap-1">
             
              <h1 className="text-white font-bold font-sans text-2xl ">WeatherApp</h1>
@@ -170,7 +169,7 @@ export default function Project(){
                 <div className='col-span-1 flex justify-center items-center bg-blue-700 text-white rounded-xl px-1'>Tailwind</div>
              </div>
              <div className='w-full flex justify-end mt-4'>
-               <button className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</button>
+               <a  target="_blank" rel="noopener noreferrer" href='https://weather-app-sdt7.vercel.app/' className='text-white bg-green-700 p-2 cursor-pointer rounded-lg'>Demo</a>
               </div>
            </div>
         </div>

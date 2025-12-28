@@ -29,7 +29,7 @@ export default function Contact(){
 
   }
     return (
-        <div className="grid w-full bg-[rgb(23,23,23)] py-2 px-16 grid-cols-1 gap-16 md:grid-cols-2">
+        <div className="grid w-full bg-[rgb(23,23,23)] py-2 md:px-16 px-8 grid-cols-1 gap-16 md:grid-cols-2">
          <div className="col-span-1 flex flex-col justify-center">
             <h1 className="text-white text-xl">Send a Message</h1>
             <form onSubmit={clickeffect}>
@@ -52,7 +52,7 @@ export default function Contact(){
            </div>
            <label htmlFor="message" className="block mb-2.5 text-sm font-medium text-heading text-white">Your message</label>
            <textarea id="message" rows={4}  className="bg-neutral-secondary-medium border border-default-medium text-white text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body rounded-xl" placeholder="Write your thoughts here..."></textarea>
-           <button type="submit" className="text-white p-2 mt-2 rounded-l-full rounded-r-full flex justify-center items-center gap-1 cursor-pointer bg-blue-700 hover:bg-blue-500">
+           <button type="submit" className="w-full text-white p-2 mt-2 rounded-l-full rounded-r-full flex justify-center items-center gap-1 cursor-pointer bg-blue-700 hover:bg-blue-500">
             <FaTelegramPlane/>
             Send message</button>
           </form>
@@ -78,10 +78,10 @@ export default function Contact(){
            <div>
             <h1 className="text-white text-lg mb-2">Follow Me</h1>
            <div className="flex gap-8">
-             <a href="" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaGithub className="text-black text-2xl"/></a>
-             <a href="" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaLinkedin className="text-blue-600 text-2xl"/></a>
-             <a href="" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaXTwitter className="text-black text-2xl"/></a>
-              <a href="" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaInstagram className="text-black text-2xl"/></a>
+             <a href="https://github.com/Karandeepdas" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaGithub className="text-black text-2xl"/></a>
+             <a href="https://www.linkedin.com/in/karan-deep-652705274/"  target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaLinkedin className="text-blue-600 text-2xl"/></a>
+             <a href="https://share.google/yk8RQXxLanHL0Bxog" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaXTwitter className="text-black text-2xl"/></a>
+              <a href="https://www.instagram.com/_lx007?igsh=aXlwMnpuOWs3ZzFy" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-300 hover:scale-105 transition"><FaInstagram className="text-black text-2xl"/></a>
            </div>
            </div>
          </div>

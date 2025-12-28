@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 px-16 py-8 bg-[rgb(23,23,23)]">
+    <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 px-8 md:px-16 py-8 bg-[rgb(23,23,23)]">
       
       <div className="flex flex-col items-center p-4 bg-[rgb(23,23,23)] shadow-xl/30 rounded-lg">
         <i className="devicon-html5-plain colored text-6xl"></i>
